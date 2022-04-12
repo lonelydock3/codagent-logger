@@ -34,7 +34,7 @@ const Home = () => {
                                 <div className="card is-light">
                                     <div className="card-content">
                                         <figure className="image is-128x128">
-                                            <img src={cmg} alt="CheckMate Gaming Logo"></img>
+                                            <a href="https://www.checkmategaming.com/tournaments"><img src={cmg} alt="CheckMate Gaming Logo"></img></a>
                                         </figure>
                                     </div>
                                 </div>
@@ -43,7 +43,7 @@ const Home = () => {
                                 <div className="card is-light">
                                     <div className="card-content">
                                         <figure className="image is-128x128">
-                                            <img src={codagent} alt="CODAgent Logo"></img>
+                                            <a href="https://esportsagent.gg/tournament"><img src={codagent} alt="CODAgent Logo"></img></a>
                                         </figure>
                                     </div>
                                 </div>
@@ -52,7 +52,7 @@ const Home = () => {
                                 <div className="card is-light">
                                     <div className="card-content">
                                         <figure className="image is-128x128">
-                                            <img src={gb} alt="Gamebattles Logo"></img>
+                                            <a href="https://gamebattles.majorleaguegaming.com/tournaments"><img src={gb} alt="Gamebattles Logo"></img></a>
                                         </figure>
                                     </div>
                                 </div>
