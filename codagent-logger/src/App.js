@@ -7,6 +7,7 @@ import SignUp from './components/pages/SignUp';
 import Home from './components/pages/Home';
 import Dashboard from './components/pages/Dashboard';
 import Upload from './components/pages/Upload';
+import Image from './components/pages/Image';
 import { AuthProvider } from './components/Auth'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route exact path={'/SignIn'} element={<SignIn />} />
           <Route exact path={'/Dashboard'} element={<Dashboard />} />
           <Route exact path={'/Upload'} element={<Upload />} />
+          <Route exact path={'/Image'} element={<Image />} />
         </Routes>
       </BrowserRouter>
 
