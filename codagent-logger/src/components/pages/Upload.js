@@ -1,6 +1,6 @@
-import React, { useContext, useState, useEffect } from 'react'
+import React, { useContext } from 'react'
 import Header from '../Header'
-import { getFirestore, collection, query, QuerySnapshot, addDoc, createId } from "firebase/firestore";
+import { getFirestore, collection, addDoc } from "firebase/firestore";
 import { AuthContext } from '../Auth';
 import { getAuth } from 'firebase/auth';
 import { Navigate } from 'react-router-dom';
